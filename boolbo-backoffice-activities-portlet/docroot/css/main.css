@@ -1,0 +1,51 @@
+.last-activies{
+	display: flex;
+	.panel{
+		
+		border: 1px solid #dadada;
+		margin-right:3%;
+		
+		div {
+			line-height:40px;
+		}
+		.panelHdr{
+			background-color:#f9f9f9;
+			padding: 8px 15px;
+			font-size: 21px;
+			
+			img{
+				width:40px;
+				height: 40px;
+				margin-right: 7px;
+			}
+			
+		}
+		
+		.panelContent{
+			padding: 20px 25px;
+  			display: inline-block;
+  			
+  			img{
+  				margin-right:12px;
+  			}
+  			
+  			i.icon-pending:before,
+  			i.icon-ok:before{
+  				display: inline-block;
+  				width: 30px;
+  				height: 30px;
+  				margin-right: 12px;
+  				vertical-align: middle;
+  			}
+  			/*
+  			i.icon-ok:before {
+  				content:url("../imgs/ico_ok.png");
+  			}
+  			i.icon-pending:before{
+  				content:url("../imgs/ico_pending.png");
+  			}
+  			*/
+		}
+	}
+	
+}

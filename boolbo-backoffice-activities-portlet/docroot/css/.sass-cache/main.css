@@ -1,0 +1,34 @@
+.last-activies .panel {
+  border: 1px solid #dadada;
+  margin-right: 3%; }
+  .last-activies .panel div {
+    line-height: 40px; }
+  .last-activies .panel .panelHdr {
+    background-color: #f9f9f9;
+    padding: 8px 15px;
+    font-size: 21px; }
+    .last-activies .panel .panelHdr img {
+      width: 40px;
+      height: 40px;
+      margin-right: 7px; }
+  .last-activies .panel .panelContent {
+    padding: 20px 25px;
+    display: inline-block;
+    /*
+    i.icon-ok:before {
+    	content:url("../imgs/ico_ok.png");
+    }
+    i.icon-pending:before{
+    	content:url("../imgs/ico_pending.png");
+    }
+    */ }
+    .last-activies .panel .panelContent img {
+      margin-right: 12px; }
+    .last-activies .panel .panelContent i.icon-pending:before,
+    .last-activies .panel .panelContent i.icon-ok:before {
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+      margin-right: 12px;
+      vertical-align: middle; }
+
